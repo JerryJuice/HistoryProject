@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Little Rock 9</title>
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	
+	<header>
+		<a href="../index.html">
+			<button class="LButton">Home</button>
+		</a>
+		<button class="RButton" onclick="randomPage()">Random Page</button>
+		<h1>Super Cool Civil Rights Movement Website</h1>
+		<h4>Made by Jeremiah Skarda</h4>
+		<script>
+		function randomPage() {
+			var pages = [
+			"AIM.html",
+			"BlackNationalism.html",
+			"BlackPanthers.html",
+			"BrownVBoard.html",
+			"CesarChavez.html",
+			"CORE.html",
+			"EmmettTill.html",
+			"ExecutiveOrder9981.html",
+			"FreedomRides.html",
+			"JackieRobinson.html",
+			"JACL.html",
+			"JamesMeredith.html",
+			"LittleRock9.html",
+			"MalcomX.html",
+			"MLK.html",
+			"MontgomeryBusBoycott.html",
+			"NAACP.html",
+			"RosaParks.html",
+			"SCLC.html",
+			"Sit-ins.html",
+			"SNCC.html",
+			"UnitedFarmWorkers.html"
+			];
+			var randomIndex = Math.floor(Math.random() * pages.length);
+			var randomPage = pages[randomIndex];
+			window.location.href = randomPage;
+		}
+	</script>
+	</header>
+	
+	<h1>Little Rock 9</h1>
+	<h4>How racist could highschoolers be?</h4>
+	<h3>1957</h3>
+	<img src="https://content.magnumphotos.com/wp-content/uploads/2017/09/cortex/par167602-teaser-story-big.jpg" width=500px">
+	<p>Three years after <a href="BrownVBoard.html">Brown v. Board of Education</a> was decided, nine black students were chosen based on grades and behavior to be integrated into the white Little Rock Central High School. The Arkansas governor then sent in the National guard to preserve the peace, by denying the nine students entry. President Eisenhower overturned these orders and told the national guard to escort the nine students in. This was an early step of fully integrating high schools around the nation.</p>
+</html>

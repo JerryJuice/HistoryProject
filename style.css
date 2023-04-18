@@ -1,0 +1,71 @@
+* {
+	font-family: Arial;
+	text-align: center;
+
+}
+body {
+	margin: 0;
+}
+h1 {
+	margin: 0;
+}
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding-top: 8px;
+	min-height: 95px;
+	margin-bottom: 20px;
+}
+summary {
+	font-size: 30px;
+}
+button {
+	font-size: 25px;
+	background: black;
+	color: white;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 80px;
+	margin: 3px;
+
+}
+p {
+	font-size: 18px;
+	width: 95%;
+	max-width: 800px;
+	margin: auto;
+	margin-bottom: 10px;
+	line-height: 30px;
+	text-align: start;
+	text-indent: 5%;
+	
+}
+h4 {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
+}
+img {
+	max-width: 500px;
+	width: 85%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.center {
+	text-align: center;
+	text-indent: 0%;
+}
+.RButton {
+	float: right;
+	background-color: white;
+	color: black;
+	width: 130px;
+}
+.LButton {
+	float: left;
+	background-color: white;
+	color: black;
+	width: 130px;
+}
